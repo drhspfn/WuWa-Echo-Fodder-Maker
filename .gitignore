@@ -1,0 +1,19 @@
+# C++ build files
+*.exe
+*.obj
+*.pdb
+*.user
+*.aps
+*.idb
+.vs/
+/x64/
+/Debug/
+/Release/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+dist/
+build/
+*.spec
