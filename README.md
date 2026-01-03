@@ -52,7 +52,7 @@ For the script to work correctly, set your game to **1920x1080 (Fullscreen)** an
 ### Building C++ Version
 You can compile `src/cpp/main.cpp` using Visual Studio or MinGW.
 ```bash
-g++ src/cpp/main.cpp -o EchoRecycler.exe -mwindows
+g++ src/cpp/main.cpp -o EchoFlux.exe -mwindows -municode -static-libgcc -static-libstdc++
 ```
 
 ### Running Python Version
