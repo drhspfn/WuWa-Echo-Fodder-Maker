@@ -32,16 +32,29 @@ This tool automates the process of upgrading trash Echoes to **Level 5**. Once t
 Go to the [**Releases**](https://github.com/drhspfn/WuWa-Echo-Fodder-Maker/releases) page and download the latest `EchoFlux.exe`.
 
 ---
+## ⚙️ Game Settings (CRITICAL)
+For the automation to work correctly, you must configure the in-game "Auto Select" logic once.
 
-## ⚙️ Game Settings (IMPORTANT)
-For the script to work correctly, set your game to **FULLSCREEN** and configure the Upgrade menu:
+### Step 1: Open Settings
+Go to the Echo Upgrade screen. Look at the bottom section:
+1. Locate the **Add by Step** button (this button is used to auto-fill materials).
+2. Click the **Gear Icon (⚙️)** to the right of it to open the configuration menu.
 
-1. Open an Echo upgrade screen.
-2. Click "Auto Select".
-3. Set **Target Level** to **Level 5** (First milestone).
-4. Set **Tuning Play** to **OFF** (Disable sync tuning to save tuners).
+![Main Settings](img/settings_main.png)
 
-> ⚠️ **Note:** The tool calculates coordinates based on 16:9 aspect ratio (1920x1080, 2560x1440, etc.). Ultrawide monitors might need windowed mode at 16:9.
+### Step 2: Configure Logic
+Set the options exactly as shown below to ensure efficient fodder creation:
+
+1. **Mode**: Select **Level Cap**.
+   * *This ensures the echo stops upgrading at Level 5 (the first checkpoint).*
+2. **Tuning Plan**: Select **Disable Sync Tuning**.
+   * *Crucial! This prevents wasting Tuners on trash echoes.*
+3. **Material**: Select **Echo EXP items and Echoes**.
+   * *This allows the game to use other trash echoes as fuel.*
+
+![Auto Select Settings](img/settings_popup.png)
+
+> ⚠️ **Note:** The tool calculates coordinates based on **16:9** aspect ratio (1920x1080, 2560x1440, 4K). Please ensure your game is in **FULLSCREEN**.
 
 ---
 
